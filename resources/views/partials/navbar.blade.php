@@ -11,14 +11,16 @@
             color: #333;
         }
         hr {
-            border-top: 1px solid red;
+            height: 1px;
+            background-color: red;
+            margin: 5px 0;
         }
         .navbar {
             position: sticky;
             top: 0;
             z-index: 1000;
             background-color: #ffffff;
-            padding: 15px 0;
+            padding: 4px 8px; 
             border-bottom: 1px solid #e0e0e0;
             display: flex;
             justify-content: space-around;
@@ -29,12 +31,15 @@
             text-align: center;
         }
         .navbar a {
-            color: #007bff; 
+            /* color: #007bff;  */
             text-decoration: none;
             padding: 10px 20px;
             display: inline-block;
-            transition: color 0.3s, text-decoration 0.3s; 
+            transition: color 0.3s;
             font-weight: bold;
+            background-color: blue;
+            border-radius: 5px;
+            color: white;
         }
         .navbar .activo a {
             color: red;
@@ -43,13 +48,6 @@
         .navbar a:hover {
             color: #0056b3;
             text-decoration: underline;
-        }
-        .navbar a {
-            background-color: blue;
-            padding: 10px;
-            border-radius: 5px;
-            color: white;
-            text-decoration: none;
         }
     </style>
 </head>

@@ -20,7 +20,7 @@
                     {{ session('estado') }}
                 @else
                     <form action="{{ route('contacto') }}" method="post">
-                        @csrf {{--Toquen para verificar que el formulario es seguro--}}
+                        @csrf 
                         <tbody>
                             <tr>
                                 <td scope="row">Nombre</td>
