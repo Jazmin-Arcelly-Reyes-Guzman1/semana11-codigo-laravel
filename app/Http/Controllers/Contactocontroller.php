@@ -44,8 +44,7 @@ class ContactoController extends Controller
 
         // $details = $request->only(['nombre', 'email', 'asunto', 'mensaje']);
         Mail::to('yosip.urquizo@gmail.com')->send(new MensajeRecibido($mensaje));
-        // return 'Mensaje Enviado';
-        return back()->with('estado','Gracias por ponerte en contacto, te responderemos a la brevedad posible');
+        return back()->with('estado-contacto','Gracias por ponerte en contacto, te responderemos a la brevedad posible');
         //
     }
 

@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Servicios2Controller;
-use App\Http\Controllers\ContactoController;
 
 
 Route::view('/', 'home')->name('home');

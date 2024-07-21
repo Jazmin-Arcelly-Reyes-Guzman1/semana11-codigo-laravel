@@ -7,11 +7,11 @@
     <nav>
     <table class="table">
         @include('partials.navbar')
-        <hr>
         @include('partials.sesion-estado')
         @yield('content')
         @include('partials.footer')
     </table>
     </nav>
+</body>   
 
 
